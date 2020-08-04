@@ -3,14 +3,18 @@
 
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Robert L. Pena</title>
 
     <style>
-      li a {color: black; text-decoration: none;}
+      li a       {color: black; text-decoration: none;}
       li a:hover {background-color: red; color: white;}
-      h1 a {color: black; text-decoration: none;}
+      h1 a       {color: black; text-decoration: none;}
       h1 a:hover {background-color: red; color: white;}
+
+      .jobHeading        {margin-bottom: 0;}
+      .jobDescription    {margin-top: 0;}
+      .jobDescription dl {margin: 0; padding: 0;}
     </style>
   </head>
 
@@ -27,10 +31,93 @@
 	</ul>
       </div>
     </div>
-    
-    <p>
-      Will get to this, soon!<br/>
+
+    <hr>
+
+    <table>
+      <tr>
+	<td style="white-space:nowrap; vertical-align: top;">Primary Interests:</td>
+	<td>Software QA/Testing and Embedded Software Development</td>
+      </tr>
+      <tr>
+	<td style="white-space:nowrap; vertical-align: top;">Primary Skillsets:</td>
+	<td>C, Assembly (MC68HC11/12, ARM-Cortex M3, A9, A53, NIOS-II, MICO32, RISC-V), Java, GNUMake, Bash Scripting</td>
+      </tr>
+      <tr>
+	<td style="white-space:nowrap; vertical-align: top;">Familiar With:</td>
+	<td>Python, SystemVerilog</td>
+      </tr>
+    </table>
+
+    <hr>
+
+    <p class="jobHeading">
+      <b>Design Engineer CE/CS @ Tactual Labs Co.</b><br/>
+      March 2019 - (Current Role)
     </p>
+    <ul class="jobDescription">
+      <li>Design, Develop, and Verify the Boot Solution for Tactual's next product family</li>
+      <li>Primary Development on a new, baremetal Firmware Library</li>
+      <li>Extend OpenOCD to support Lattice MICO32 Debug</li>
+      <li><dl>
+	  <dt>Supporting Architecture:</dt>
+	  <dd>- Write/Edit System-Level Specification Documents</dd>
+	  <dd>- Create System- and Block-Level Diagrams</dd>
+	  <dd>- Owned Block-Level Specifications for modules realated Power, Reset, Clocking, and Primary Control Processor</dd>
+      </dl></li>
+      <li><dl>
+	  <dt>Supporting Verification:</dt>
+	  <dd>- Created the Initial Verification Strategy</dd>
+	  <dd>- Pre-Silicon Verification of the Control Procesor using embedded software tests</dd>
+      </dl></li>
+    </ul>
+
+    <p class="jobHeading">
+      <b>Design Verification Engineer @ Intel Corporation</b><br/>
+      January 2017 - October 2018
+    </p>
+    <ul class="jobDescription">
+      <li>Primary Advisor for baremetal software used by multiple DV teams</li>
+      <li><dl>
+	  <dt>Design Verification, Stratix 10 and Agilex SoCFPGA's:</dt>
+	  <dd>- Write and Debug pre-silicon tests using a combination of embedded software (C/Assembly) and hardware (SystemVerilog) in simulation</dd>
+	  <dd>- Primary owner for system-level verification of various peripheral IP's, including SD/MMC, Quad-SPI Flash, I2C, UART, SPI, NAND, and EMAC</dd>
+	  <dd>- Assist with post-silicon issues, including replicating bugs in simulation</dd>
+      </dl></li>
+    </ul>
+
+    <p class="jobHeading">
+      <b>Embedded Software Engineer @ Intel Corporation</b><br/>
+      December 2015 - December 2016
+    </p>
+    <ul class="jobDescription">
+      <li>Continuing work in the Programmable Solutions Group as part of the Altera-Intel acquisition</li>
+      <li><dl>
+	  <dt>Lead/Developer, Stratix 10 Utility ROM:</dt>
+	  <dd>- Developed a tightly-constrained ROM Fragment used for Wafer Test and Characterization</dd>
+	  <dd>- Owned all aspects of the development lifecycle, including gathering requirements and writing design/specification documents</dd>
+      </dl></li>
+    </ul>
+
+    <p class="jobHeading">
+      <b>Embedded Software Engineer @ Altera Corporation</b><br/>
+      December 2011 - December 2015
+    </p>
+    <ul class="jobDescription">
+      <li><dl>
+	  <dt>Developer, Arria 10 SoCFPGA BootROM:</dt>
+	  <dd>- Handled the clocking code for SoC Boots, including PLLs and Flash devices</dd>
+	  <dd>- Maintained minimalistic Quad-SPI and SD/MMC drivers</dd>
+      </dl></li>
+      <li><dl>
+	  <dt>Software Tester, CycloneV SoCFPGA BootROM:</dt>
+	  <dd>- Owned pre-silicon software testing, including the writing of the test plan and testcases</dd>
+	  <dd>- Initial bring-up of the Boot process in first post-silicon</dd>
+	  <dd>- Proud to say the code never needed to be re-opened for corrections</dd>
+      </dl></li>
+    </ul>
+
+    <hr>
+
   </body>
-  
 </html>
