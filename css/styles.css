@@ -1,0 +1,26 @@
+
+/* Basic Header Block Styles */
+div.basicHeaderBlock {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.basicHeaderBlock li a {
+    color: black;
+    text-decoration: none;
+}
+
+div.basicHeaderBlock li a:hover {
+    color: while;
+    background-color: red;
+}
+
+div.basicHeaderBlock h1 a {
+    color: black;
+    text-decoration: none;
+}
+
+div.basicHeaderBlock h1 a:hover {
+    color: while;
+    background-color: red;
+}
