@@ -7,23 +7,23 @@ function getHeaderImgSrc(fileName) {
     switch (fileName) {
       default:
       case 'index':
-	src = '/bitmoji-1.png';
+	src = '/img/bitmoji-1.png';
 	break;
 
       case 'aboutme':
-	src = '/bitmoji-2.png';
+	src = '/img/bitmoji-2.png';
 	break;
 
       case 'top':
-	src = '/bitmoji-3.png';
+	src = '/img/bitmoji-3.png';
 	break;
 
       case 'resume':
-	src = '/bitmoji-5.png';
+	src = '/img/bitmoji-5.png';
 	break;
 
       case 'links':
-	src = '/bitmoji-6.png';
+	src = '/img/bitmoji-6.png';
 	break;
     }
 
